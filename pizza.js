@@ -13,9 +13,9 @@
     }
 
     var pizzas = [];
-    pizzas[0] = new PizzaMaker("Margherita", "img/margherita.png", 0);
-    pizzas[1] = new PizzaMaker("Hawaii", "img/hawaii.png", 0);
-    pizzas[2] = new PizzaMaker("Pepperoni", "img/pepperoni.png", 0);
+    pizzas[0] = new PizzaMaker("Margherita", "margherita.png", 0);
+    pizzas[1] = new PizzaMaker("Hawaii", "hawaii.png", 0);
+    pizzas[2] = new PizzaMaker("Pepperoni", "pepperoni.png", 0);
 
     var selectedPizza;
     pizzas = JSON.parse(localStorage.getItem('pizzas')) || pizzas;
@@ -107,7 +107,7 @@
         for (var i = 0; i < currentClass.length; i++) {
             currentClass[i].style.backgroundImage = 'none';
         }
-        currentClass[index].style.backgroundImage = 'url(img/right.png)';
+        currentClass[index].style.backgroundImage = 'url(right.png)';
         currentClass[index].style.backgroundRepeat = 'no-repeat';
         currentClass[index].style.backgroundPosition = '90% 50%';
     }
