@@ -37,7 +37,7 @@ article {
 	cursor:pointer;
 	background-repeat: no-repeat;
 	background-position: 90% 50%;
-	background-image: url(img/right.png);
+	background-image: url(right.png);
 }
 #section-middle {
 	display:none;
